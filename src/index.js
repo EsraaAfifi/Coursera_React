@@ -4,11 +4,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import Menu from './Components/MenuComponent';
 
+const element = <h1>Hello World</h1>;
 ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
+  
   document.getElementById('root')
 );
 
